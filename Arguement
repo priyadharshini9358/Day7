@@ -1,0 +1,10 @@
+public class Arguement {
+	public void display()
+	{
+		System.out.println("hi,hello");
+	}
+	public static void main(String[] args) {
+		Arguement obj=new Arguement();
+		    obj.display();
+	}
+}
