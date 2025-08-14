@@ -1,0 +1,10 @@
+public class Stringmethods {
+		public static void main(String[] args) {
+			String str="Priya";
+			String str1="Priya";
+			String str2=new String("hat");
+			String str3=new String(" apple");
+			System.out.println(str.length());
+			System.out.println(str2.concat(str3));
+		}
+}
