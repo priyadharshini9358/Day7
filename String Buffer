@@ -1,0 +1,20 @@
+public class stringbuffermethod {
+	public static void main(String[] args) {
+		StringBuffer sb=new StringBuffer("welcome");
+		System.out.println(sb);
+		sb.append(" goa");
+		System.out.println(sb);
+		sb.insert(4, "to you");
+		System.out.println(sb);
+		sb.reverse();
+		System.out.println(sb);
+		sb.replace(0, 3, "re");
+		System.out.println(sb);
+	}
+}
+		
+		
+		
+		
+		
+	
